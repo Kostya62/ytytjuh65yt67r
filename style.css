@@ -1,0 +1,70 @@
+body{
+	margin: 0 ;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.header{
+	width: 100% ;
+	padding: 15px ;
+	display: flex ;
+	justify-content: center ;
+	font-size: 24px;
+	font-weight: 300 ;
+	color: gray ;
+}
+
+.hero{
+	display: flex ;
+	justify-content: space-between;
+	max-width: 1200px ;
+	max-height: 100vh ;
+	align-items: center;
+	margin: 0 auto ;
+}
+
+.hero_about{
+	display: flex;
+	flex-direction: column;
+
+	max-width: 500px ;
+}
+.hero_title{
+	font-size: 48px ;
+	margin: 0;
+}
+.hero_subtitle{
+	font-size: 32px ;
+	margin: 0;
+	font-weight: 400;
+}
+.hero_info{
+	font-size: 16px ;
+}
+.hero_links{
+	display: flex;
+}
+.hero_link{
+	margin-right: 20px;
+	font-size: 30px ;
+	color: #000;
+}
+.hero_link:hover{
+	color: red;
+}
+.hero_box{
+	display: flex;
+	max-width: 500px;
+	overflow: hidden;
+	border: 10px solid  #fff;
+	box-shadow: 2px 5px 10 px color: black;
+	 background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); ;
+}
+
+
+@keyframes ava-animation{
+ 0%{
+ 	<font style="vertical-align: inherit;"><font style="vertical-align: inherit;">68% 32% 54% 46% / 72% 76% 24% 28%</font></font>
+ }
+}
